@@ -19,6 +19,7 @@ export const Header: React.FC = () => {
               src="/assets/logo_minkea.jpg" 
               alt="Minkea Logo" 
               fill 
+              sizes="64px"
               className="object-contain"
               priority
             />
@@ -63,8 +64,8 @@ export const Header: React.FC = () => {
               <Bell className="w-6 h-6" />
             </button>
             <Avatar className="w-10 h-10 ring-2 ring-primary/10 ring-offset-2">
-              <AvatarImage src="https://i.pravatar.cc/150?u=mateo" />
-              <AvatarFallback>M</AvatarFallback>
+              <AvatarImage src="/assets/leandro.jpg" />
+              <AvatarFallback>L</AvatarFallback>
             </Avatar>
           </div>
         </div>

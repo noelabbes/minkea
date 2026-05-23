@@ -6,6 +6,7 @@ import { ChevronLeft, MapPin, Calendar, MessageCircle, ExternalLink, CheckCircle
 import Link from 'next/link';
 import { GradientButton } from '@/web/components/GradientButton';
 import { Button } from '@/web/components/ui/button';
+import { MeetingPointMap } from '@/web/components/MeetingPointMap';
 
 interface Props {
   params: Promise<{ id: string }>;
@@ -19,9 +20,6 @@ export default async function MinkaActivePage({ params }: Props) {
     notFound();
   }
 
-  // Google Maps simulation URL
-  const mapUrl = `https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d15605.5!2d${minka.meetingPoint.lng}!3d${minka.meetingPoint.lat}!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2spe!4v1716380000000!5m2!1ses-419!2spe`;
-
   return (
     <MainLayout>
       <div className="max-w-4xl mx-auto">
@@ -29,16 +27,12 @@ export default async function MinkaActivePage({ params }: Props) {
           
           {/* Map Section (Left/Top) */}
           <div className="lg:w-1/2 h-80 lg:h-auto relative bg-gray-100">
-            <iframe 
-              src={mapUrl} 
-              width="100%" 
-              height="100%" 
-              style={{ border: 0 }} 
-              allowFullScreen={false} 
-              loading="lazy" 
-              className="grayscale"
+            <MeetingPointMap 
+              lat={minka.meetingPoint.lat} 
+              lng={minka.meetingPoint.lng} 
+              address={minka.meetingPoint.address} 
             />
-            <Link href={`/minka/${id}`} className="absolute top-6 left-6 p-3 bg-white/80 backdrop-blur-md rounded-2xl text-gray-900 shadow-lg">
+            <Link href={`/minka/${id}`} className="absolute top-6 left-6 p-3 bg-white/80 backdrop-blur-md rounded-2xl text-gray-900 shadow-lg z-10 hover:bg-white transition-colors">
               <ChevronLeft className="w-5 h-5" />
             </Link>
           </div>

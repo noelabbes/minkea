@@ -18,8 +18,8 @@ export const mockUsers: User[] = [
   },
   {
     id: "4",
-    name: "Mateo Sánchez",
-    avatarUrl: "https://i.pravatar.cc/150?u=mateo",
+    name: "Leandro",
+    avatarUrl: "/assets/leandro.jpg",
   },
   {
     id: "5",
