@@ -154,14 +154,14 @@ export default async function MinkaDetailPage({ params }: Props) {
               </div>
 
               {/* Logistics Grid */}
-              <div className="space-y-6 mb-10">
+              <div className="space-y-8 mb-10">
                 <div className="flex items-start gap-4">
                    <div className="p-3 bg-primary/5 rounded-2xl text-primary">
                       <Calendar className="w-6 h-6" />
                    </div>
                    <div>
-                      <p className="text-[10px] font-black text-gray-400 uppercase tracking-widest mb-0.5">Cuándo</p>
-                      <p className="text-sm font-black text-gray-900">{minka.date}</p>
+                      <p className="text-[10px] font-black text-gray-400 uppercase tracking-widest mb-1">Cuándo</p>
+                      <p className="text-sm font-semibold text-gray-900">{minka.date}</p>
                    </div>
                 </div>
 
@@ -169,10 +169,17 @@ export default async function MinkaDetailPage({ params }: Props) {
                    <div className="p-3 bg-primary/5 rounded-2xl text-primary">
                       <MapPin className="w-6 h-6" />
                    </div>
-                   <div>
-                      <p className="text-[10px] font-black text-gray-400 uppercase tracking-widest mb-0.5">Punto de encuentro</p>
-                      <p className="text-sm font-black text-gray-900 mb-1">{minka.meetingPoint.address}</p>
-                      <div className="h-48 w-full rounded-2xl overflow-hidden border border-gray-100 mt-3">
+                   <div className="flex-1">
+                      <p className="text-[10px] font-black text-gray-400 uppercase tracking-widest mb-1">Punto de encuentro</p>
+                      <div className="mb-4">
+                        <p className="text-sm font-semibold text-gray-900 leading-snug">{minka.meetingPoint.address}</p>
+                        {minka.meetingPoint.reference && (
+                          <p className="text-xs font-normal text-gray-500 mt-1 leading-relaxed">
+                            {minka.meetingPoint.reference}
+                          </p>
+                        )}
+                      </div>
+                      <div className="h-48 w-full rounded-2xl overflow-hidden border border-gray-100">
                          <MeetingPointMap 
                             lat={minka.meetingPoint.lat} 
                             lng={minka.meetingPoint.lng} 
