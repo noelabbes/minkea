@@ -4,17 +4,17 @@ export const mockUsers: User[] = [
   {
     id: "1",
     name: "Andrea Torres",
-    avatarUrl: "https://i.pravatar.cc/150?u=andrea",
+    avatarUrl: "/assets/andrea.jpg",
   },
   {
     id: "2",
     name: "Juan Pérez",
-    avatarUrl: "https://i.pravatar.cc/150?u=juan",
+    avatarUrl: "/assets/juan.jpg",
   },
   {
     id: "3",
     name: "Carla Ruiz",
-    avatarUrl: "https://i.pravatar.cc/150?u=carla",
+    avatarUrl: "/assets/carla.jpg",
   },
   {
     id: "4",
@@ -24,22 +24,22 @@ export const mockUsers: User[] = [
   {
     id: "5",
     name: "Lucía Méndez",
-    avatarUrl: "https://i.pravatar.cc/150?u=lucia",
+    avatarUrl: "/assets/lucia.jpg",
   },
   {
     id: "6",
     name: "Diego Vega",
-    avatarUrl: "https://i.pravatar.cc/150?u=diego",
+    avatarUrl: "/assets/diego.jpg",
   },
   {
     id: "7",
     name: "Sofía Castro",
-    avatarUrl: "https://i.pravatar.cc/150?u=sofia",
+    avatarUrl: "/assets/sofia.jpg",
   },
   {
     id: "8",
     name: "Gabriel Luna",
-    avatarUrl: "https://i.pravatar.cc/150?u=gabriel",
+    avatarUrl: "/assets/gabriel.jpg",
   },
 ];
 
@@ -54,15 +54,12 @@ export const mockMinkas: Minka[] = [
     location: "Chorrillos, Lima",
     rewardPoints: 50,
     image: "/assets/playa.jpg",
-    gallery: [
-      "/assets/playa.jpg",
-      "https://images.unsplash.com/photo-1618477461853-cf6ed80fafa5?q=80&w=800&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1559136555-9303baea8ebd?q=80&w=800&auto=format&fit=crop"
-    ],
+    gallery: ["/assets/playa.jpg", "/assets/playa2.jpg", "/assets/playa3.jpg"],
     organizer: "Minkea Green Team",
     asistentes: [mockUsers[0], mockUsers[1], mockUsers[2], mockUsers[3]],
     impactDescription:
       "Cada kilo de plástico retirado evita que miles de fragmentos lleguen a la cadena alimenticia marina.",
+    voucherImage: "/assets/mcompleta_playa.png",
     meetingPoint: {
       lat: -12.1643,
       lng: -77.0315,
@@ -83,12 +80,13 @@ export const mockMinkas: Minka[] = [
     gallery: [
       "/assets/sanlucas.jpg",
       "/assets/sanlucas2.jpg",
-      "/assets/sanlucas3.jpg"
+      "/assets/sanlucas3.jpg",
     ],
     organizer: "Conexión Generacional",
     asistentes: [mockUsers[4], mockUsers[5], mockUsers[0]],
     impactDescription:
       "Combatimos la soledad en el adulto mayor a través de conexiones humanas significativas.",
+    voucherImage: "/assets/mcompleta_sanlucas.png",
     meetingPoint: {
       lat: -12.0464,
       lng: -77.0298,
@@ -109,17 +107,19 @@ export const mockMinkas: Minka[] = [
     gallery: [
       "/assets/lomasparaiso.jpg",
       "/assets/lomasparaiso2.jpg",
-      "/assets/lomasparaiso3.jpg"
+      "/assets/lomasparaiso3.jpg",
     ],
     organizer: "Lomas Vivas",
     asistentes: [mockUsers[6], mockUsers[7], mockUsers[1], mockUsers[2]],
     impactDescription:
       "Las lomas son pulmones críticos para Lima. Plantar un árbol hoy es asegurar agua para mañana.",
+    voucherImage: "/assets/mcompletada_lomas.png",
     meetingPoint: {
       lat: -12.0167,
       lng: -76.9667,
       address: "Av. Paraíso, Villa María del Triunfo",
-      reference: "Último paradero de la línea de transporte 'Unidad de Villa' Ruta 8712 N°22",
+      reference:
+        "Último paradero de la línea de transporte 'Unidad de Villa' Ruta 8712 N°22",
     },
   },
   {
@@ -135,7 +135,7 @@ export const mockMinkas: Minka[] = [
     gallery: [
       "/assets/hospitaldelnino.jpg",
       "https://images.unsplash.com/photo-1505751172107-57325a483a9a?q=80&w=800&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1532938911079-1b06ac7ceec7?q=80&w=800&auto=format&fit=crop"
+      "https://images.unsplash.com/photo-1532938911079-1b06ac7ceec7?q=80&w=800&auto=format&fit=crop",
     ],
     organizer: "Sonrisas de Papel",
     asistentes: [mockUsers[3], mockUsers[4]],
@@ -162,7 +162,7 @@ export const mockMinkas: Minka[] = [
     gallery: [
       "https://images.unsplash.com/photo-1593113598332-cd288d649433?q=80&w=800&auto=format&fit=crop",
       "https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?q=80&w=800&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1532629345422-7515f3d16bb8?q=80&w=800&auto=format&fit=crop"
+      "https://images.unsplash.com/photo-1532629345422-7515f3d16bb8?q=80&w=800&auto=format&fit=crop",
     ],
     organizer: "Ollas Comunes Unidas",
     asistentes: [mockUsers[5], mockUsers[6], mockUsers[7]],

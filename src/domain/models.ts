@@ -19,6 +19,7 @@ export interface Minka {
   organizer: string;
   asistentes: User[];
   impactDescription: string;
+  voucherImage?: string;
   meetingPoint: {
     lat: number;
     lng: number;

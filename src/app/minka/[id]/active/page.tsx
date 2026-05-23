@@ -98,7 +98,7 @@ export default async function MinkaActivePage({ params }: Props) {
                    Tu GPS está activo. Al llegar al lugar, se habilitará automáticamente el botón de confirmación.
                  </p>
               </div>
-              <Link href="/reward">
+              <Link href={`/reward?minkaId=${id}`}>
                 <GradientButton className="w-full text-lg shadow-xl shadow-primary/20">
                   Confirmar Asistencia en el Lugar
                 </GradientButton>
