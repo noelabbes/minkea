@@ -116,6 +116,3 @@ export default async function MinkaActivePage({ params }: Props) {
     </MainLayout>
   );
 }
-
-  );
-}
