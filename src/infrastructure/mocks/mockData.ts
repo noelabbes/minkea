@@ -82,8 +82,8 @@ export const mockMinkas: Minka[] = [
     image: "/assets/sanlucas.jpg",
     gallery: [
       "/assets/sanlucas.jpg",
-      "https://images.unsplash.com/photo-1581579438747-1dc8c17bbce4?q=80&w=800&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1516733725897-1aa73b87c8e8?q=80&w=800&auto=format&fit=crop"
+      "/assets/sanlucas2.jpg",
+      "/assets/sanlucas3.jpg"
     ],
     organizer: "Conexión Generacional",
     asistentes: [mockUsers[4], mockUsers[5], mockUsers[0]],
