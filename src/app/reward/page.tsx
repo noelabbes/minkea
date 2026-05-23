@@ -1,67 +1,97 @@
 import React from 'react';
 import { MainLayout } from '@/web/layouts/MainLayout';
-import { Trophy, Sparkles, ArrowRight, Share2, Wallet } from 'lucide-react';
+import { Trophy, Sparkles, Share2, Wallet, Linkedin, Instagram, Download } from 'lucide-react';
 import Link from 'next/link';
-import { GradientButton } from '@/web/components/GradientButton';
 import { Button } from '@/web/components/ui/button';
 
 export default function RewardPage() {
   return (
     <MainLayout showDesktopHeader={false}>
-      <div className="flex flex-col items-center justify-center min-h-[80vh] text-center max-w-2xl mx-auto py-12">
-        {/* Celebration Animation Placeholder */}
-        <div className="relative mb-12">
-          <div className="w-40 h-40 bg-amber-50 rounded-full flex items-center justify-center animate-bounce shadow-inner">
-            <Trophy className="w-20 h-20 text-amber-500 fill-amber-500" />
+      <div className="flex flex-col items-center justify-center min-h-[90vh] text-center max-w-2xl mx-auto py-8 px-4">
+        {/* Celebration Header */}
+        <div className="relative mb-6">
+          <div className="w-24 h-24 bg-amber-50 rounded-full flex items-center justify-center animate-bounce shadow-inner">
+            <Trophy className="w-12 h-12 text-amber-500 fill-amber-500" />
           </div>
-          <Sparkles className="absolute -top-6 -right-6 w-12 h-12 text-amber-400 animate-pulse" />
-          <Sparkles className="absolute -bottom-4 -left-6 w-10 h-10 text-primary animate-pulse delay-75" />
+          <Sparkles className="absolute -top-4 -right-4 w-8 h-8 text-amber-400 animate-pulse" />
         </div>
 
-        <h1 className="text-5xl font-black text-gray-900 mb-6 tracking-tight">¡Misión Cumplida!</h1>
-        <p className="text-gray-500 text-lg font-medium mb-12 leading-relaxed">
-          Gracias por tu impacto en la comunidad. Has demostrado que el espíritu de la <span className="font-bold text-primary italic">Minka</span> sigue vivo en ti.
+        <h1 className="text-4xl font-black text-gray-900 mb-2 tracking-tight italic">¡Misión Cumplida!</h1>
+        <p className="text-gray-500 text-sm font-medium mb-8 leading-relaxed max-w-xs mx-auto">
+          Gracias por tu impacto en la comunidad. Has demostrado que el espíritu de la <span className="font-bold text-primary">Minka</span> sigue vivo.
         </p>
 
-        {/* Reward Card */}
-        <div className="w-full bg-minkea-gradient p-[2px] rounded-[40px] shadow-2xl shadow-primary/20 mb-12">
-          <div className="bg-white rounded-[38px] p-10 flex flex-col items-center">
-            <div className="flex items-center gap-3 mb-4">
-              <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Yape_logo.png/600px-Yape_logo.png" alt="Yape" className="h-8" />
-              <span className="text-sm font-black text-gray-400 uppercase tracking-[0.3em]">Acreditados</span>
+        {/* Reward Card - Compact */}
+        <div className="w-full bg-minkea-gradient p-[1.5px] rounded-[30px] shadow-xl shadow-primary/10 mb-8 max-w-xs mx-auto">
+          <div className="bg-white rounded-[29px] py-4 px-6 flex flex-col items-center">
+            <div className="flex items-center gap-2 mb-1">
+              <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Yape_logo.png/600px-Yape_logo.png" alt="Yape" className="h-4" />
+              <span className="text-[10px] font-black text-gray-400 uppercase tracking-widest">Acreditados</span>
             </div>
-            <div className="flex items-baseline gap-2">
-              <span className="text-7xl font-black text-gray-900">+50</span>
-              <span className="text-2xl font-black text-secondary uppercase">pts</span>
+            <div className="flex items-baseline gap-1">
+              <span className="text-4xl font-black text-gray-900">+50</span>
+              <span className="text-sm font-black text-secondary uppercase">pts</span>
             </div>
-            <p className="text-xs font-black text-gray-300 mt-4 tracking-widest uppercase">NUEVO SALDO YAPE: 1,300 PTS</p>
           </div>
         </div>
 
-        {/* Benefits Section */}
-        <div className="w-full grid grid-cols-1 sm:grid-cols-2 gap-4 mb-12">
-           <Button variant="outline" className="h-auto p-6 border-gray-100 minkea-shadow rounded-3xl flex flex-col items-center text-center hover:bg-gray-50 transition-all group">
-              <div className="p-4 bg-primary/5 rounded-2xl mb-4 text-primary group-hover:scale-110 transition-transform">
-                <Wallet className="w-8 h-8" />
+        {/* Viral Voucher Thumbnail */}
+        <div className="w-full mb-6 group cursor-pointer relative max-w-sm">
+          <p className="text-[10px] font-black text-gray-400 uppercase tracking-widest mb-3">Tu prueba de impacto</p>
+          <div className="relative overflow-hidden rounded-2xl shadow-2xl transition-transform hover:scale-[1.02] duration-300">
+            <img 
+              src="/assets/mcompletada_lomas.png" 
+              alt="Voucher de Minka Completada" 
+              className="w-full h-auto object-cover"
+            />
+            <div className="absolute inset-0 bg-black/5 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
+              <div className="bg-white/90 backdrop-blur-sm p-3 rounded-full shadow-lg">
+                <Share2 className="w-6 h-6 text-primary" />
               </div>
-              <p className="text-sm font-black text-gray-900 mb-1">Beneficios BCP</p>
-              <p className="text-[10px] text-gray-400 font-bold uppercase">Canjea tus puntos ahora</p>
-           </Button>
-
-           <Button variant="outline" className="h-auto p-6 border-gray-100 minkea-shadow rounded-3xl flex flex-col items-center text-center hover:bg-gray-50 transition-all group">
-              <div className="p-4 bg-secondary/5 rounded-2xl mb-4 text-secondary group-hover:scale-110 transition-transform">
-                <Share2 className="w-8 h-8" />
-              </div>
-              <p className="text-sm font-black text-gray-900 mb-1">Compartir impacto</p>
-              <p className="text-[10px] text-gray-400 font-bold uppercase">Presume tu minka en redes</p>
-           </Button>
+            </div>
+          </div>
         </div>
 
-        {/* Back to Feed */}
-        <Link href="/feed" className="w-full sm:w-auto">
-          <GradientButton className="min-w-[300px] text-xl">
+        {/* Share Group */}
+        <div className="w-full flex flex-col gap-3 mb-10 max-w-sm">
+          <Button className="w-full bg-[#0A66C2] hover:bg-[#084e96] h-14 rounded-2xl text-lg font-bold gap-3 shadow-lg shadow-blue-500/20">
+            <Linkedin className="w-6 h-6" />
+            Compartir en LinkedIn
+          </Button>
+          
+          <div className="grid grid-cols-2 gap-3">
+            <Button variant="outline" className="h-14 rounded-2xl border-gray-100 shadow-sm gap-2 font-bold text-gray-700">
+              <Instagram className="w-5 h-5 text-pink-600" />
+              Historias
+            </Button>
+            <Button variant="outline" className="h-14 rounded-2xl border-gray-100 shadow-sm gap-2 font-bold text-gray-700">
+              <Download className="w-5 h-5 text-gray-500" />
+              Guardar
+            </Button>
+          </div>
+        </div>
+
+        {/* Benefits Link - Subtle */}
+        <Link href="#" className="w-full flex items-center justify-between p-4 bg-gray-50 rounded-2xl mb-12 hover:bg-gray-100 transition-colors max-w-sm">
+          <div className="flex items-center gap-3">
+            <div className="w-10 h-10 bg-white rounded-xl flex items-center justify-center shadow-sm">
+              <Wallet className="w-5 h-5 text-primary" />
+            </div>
+            <div className="text-left">
+              <p className="text-sm font-black text-gray-900">Beneficios BCP</p>
+              <p className="text-[10px] text-gray-400 font-bold uppercase">Canjea tus puntos acumulados</p>
+            </div>
+          </div>
+          <div className="w-8 h-8 rounded-full flex items-center justify-center text-gray-300">
+            <Share2 className="w-4 h-4 rotate-90" />
+          </div>
+        </Link>
+
+        {/* Exit - Ghost Button */}
+        <Link href="/feed">
+          <Button variant="ghost" className="text-gray-400 font-bold hover:text-gray-600 hover:bg-transparent">
             Volver al Inicio
-          </GradientButton>
+          </Button>
         </Link>
       </div>
     </MainLayout>
