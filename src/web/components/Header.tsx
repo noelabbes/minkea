@@ -14,11 +14,11 @@ export const Header: React.FC = () => {
       <div className="w-full max-w-7xl flex items-center justify-between">
         {/* Logo */}
         <Link href="/feed" className="flex items-center group">
-          <div className="relative w-18 h-18 transition-transform group-hover:scale-105">
-            <Image
-              src="/assets/logo_minkea.png"
-              alt="Minkea Logo"
-              fill
+          <div className="relative w-16 h-16 transition-transform group-hover:scale-105">
+            <Image 
+              src="/assets/logo_minkea.jpg" 
+              alt="Minkea Logo" 
+              fill 
               className="object-contain"
               priority
             />
