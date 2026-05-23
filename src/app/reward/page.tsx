@@ -1,6 +1,6 @@
 import React from 'react';
 import { MainLayout } from '@/web/layouts/MainLayout';
-import { Trophy, Sparkles, Share2, Wallet, Linkedin, Instagram, Download } from 'lucide-react';
+import { Trophy, Sparkles, Share2, Wallet, Camera, Download } from 'lucide-react';
 import Link from 'next/link';
 import { Button } from '@/web/components/ui/button';
 
@@ -54,14 +54,14 @@ export default function RewardPage() {
 
         {/* Share Group */}
         <div className="w-full flex flex-col gap-3 mb-10 max-w-sm">
-          <Button className="w-full bg-[#0A66C2] hover:bg-[#084e96] h-14 rounded-2xl text-lg font-bold gap-3 shadow-lg shadow-blue-500/20">
-            <Linkedin className="w-6 h-6" />
+          <Button className="w-full bg-[#0A66C2] hover:bg-[#084e96] h-14 rounded-2xl text-lg font-bold gap-3 shadow-lg shadow-blue-500/20 text-white">
+            <Share2 className="w-6 h-6" />
             Compartir en LinkedIn
           </Button>
           
           <div className="grid grid-cols-2 gap-3">
             <Button variant="outline" className="h-14 rounded-2xl border-gray-100 shadow-sm gap-2 font-bold text-gray-700">
-              <Instagram className="w-5 h-5 text-pink-600" />
+              <Camera className="w-5 h-5 text-pink-600" />
               Historias
             </Button>
             <Button variant="outline" className="h-14 rounded-2xl border-gray-100 shadow-sm gap-2 font-bold text-gray-700">
