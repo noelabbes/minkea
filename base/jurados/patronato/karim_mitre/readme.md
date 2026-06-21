@@ -4,7 +4,7 @@
 
 ## Información General
 * **Cargo Actual:** Gerente de la División de Gestión y Desarrollo Humano (GDH) y Administración del Banco de Crédito del Perú (BCP) y de Credicorp.
-* **Rol en el Patronato:** Miembro del Consejo Directivo de la [Asociación Patronato BCP](file:///D:/minkea/base/jurados/patronato_bcp.md) (órgano encargado de orientar la estrategia y supervisar el impacto social del Patronato).
+* **Rol en el Patronato:** Miembro del Consejo Directivo de la [Asociación Patronato BCP](file:///D:/minkea/base/jurados/patronato/patronato_bcp.md) (órgano encargado de orientar la estrategia y supervisar el impacto social del Patronato).
 * **Formación Académica:** 
   * Bachiller en Ciencias Económicas con especialidad en Relaciones Internacionales.
   * Magíster (MSc) en Política y Desarrollo Latinoamericano por la London School of Economics and Political Science (LSE), Inglaterra.

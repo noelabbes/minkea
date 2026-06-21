@@ -4,7 +4,7 @@
 
 ## Información General
 * **Cargo Actual:** Especialista Sénior en Asuntos Corporativos del BCP / Credicorp.
-* **Rol en el Patronato:** Vicepresidente del Consejo Directivo de la [Asociación Patronato BCP](file:///D:/minkea/base/jurados/patronato_bcp.md) (segunda máxima autoridad en la toma de decisiones estratégicas del Patronato).
+* **Rol en el Patronato:** Vicepresidente del Consejo Directivo de la [Asociación Patronato BCP](file:///D:/minkea/base/jurados/patronato/patronato_bcp.md) (segunda máxima autoridad en la toma de decisiones estratégicas del Patronato).
 * **Formación Académica:** 
   * Abogado por la Pontificia Universidad Católica del Perú (PUCP).
   * Maestro en Ciencia Política y Relaciones Internacionales por la PUCP.

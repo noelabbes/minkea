@@ -4,7 +4,7 @@
 
 ## Información General
 * **Cargo Actual:** Gerente Central de Banca Mayorista del Banco de Crédito del Perú (BCP).
-* **Rol en el Patronato:** Miembro del Consejo Directivo de la [Asociación Patronato BCP](file:///D:/minkea/base/jurados/patronato_bcp.md) (órgano encargado de orientar la estrategia y supervisar el impacto social del Patronato).
+* **Rol en el Patronato:** Miembro del Consejo Directivo de la [Asociación Patronato BCP](file:///D:/minkea/base/jurados/patronato/patronato_bcp.md) (órgano encargado de orientar la estrategia y supervisar el impacto social del Patronato).
 * **Formación Académica:** 
   * Economista por la Universidad del Pacífico (UP).
   * MBA por la Krannert Graduate School of Management de la Purdue University, EE. UU.

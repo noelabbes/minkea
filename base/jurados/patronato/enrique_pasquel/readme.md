@@ -4,7 +4,7 @@
 
 ## Información General
 * **Cargo Actual:** Gerente de Asuntos Corporativos del Grupo Credicorp.
-* **Rol en el Patronato:** Presidente del Consejo Directivo de la [Asociación Patronato BCP](file:///D:/minkea/base/jurados/patronato_bcp.md) (máxima autoridad en la orientación estratégica y supervisión de las iniciativas de sostenibilidad y becas del grupo).
+* **Rol en el Patronato:** Presidente del Consejo Directivo de la [Asociación Patronato BCP](file:///D:/minkea/base/jurados/patronato/patronato_bcp.md) (máxima autoridad en la orientación estratégica y supervisión de las iniciativas de sostenibilidad y becas del grupo).
 * **Formación Académica:** 
   * Abogado por la Pontificia Universidad Católica del Perú (PUCP).
   * Máster en Derecho (LL.M.) por la Universidad de Yale, EE. UU.

@@ -4,7 +4,7 @@
 
 ## Información General
 * **Cargo Actual:** Chief Risk Officer (CRO) de Credicorp Ltd. y del Banco de Crédito del Perú (BCP).
-* **Rol en el Patronato:** Miembro de la Asamblea General (en representación del Grupo Credicorp) de la [Asociación Patronato BCP](file:///D:/minkea/base/jurados/patronato_bcp.md).
+* **Rol en el Patronato:** Miembro de la Asamblea General (en representación del Grupo Credicorp) de la [Asociación Patronato BCP](file:///D:/minkea/base/jurados/patronato/patronato_bcp.md).
 * **Formación Académica:** 
   * Bachiller en Ingeniería por la Pontificia Universidad Católica del Perú (PUCP).
   * Máster y MBA por el Sloan Fellows Program en el Massachusetts Institute of Technology (MIT), EE. UU.

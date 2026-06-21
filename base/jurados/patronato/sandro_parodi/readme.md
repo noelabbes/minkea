@@ -4,7 +4,7 @@
 
 ## Información General
 * **Cargo Actual:** Economista, investigador y consultor sénior en políticas públicas y educación.
-* **Rol en el Patronato:** Miembro Externo del Consejo Directivo de la [Asociación Patronato BCP](file:///D:/minkea/base/jurados/patronato_bcp.md) (aporta rigurosidad analítica y experiencia en diseño de políticas de becas nacionales).
+* **Rol en el Patronato:** Miembro Externo del Consejo Directivo de la [Asociación Patronato BCP](file:///D:/minkea/base/jurados/patronato/patronato_bcp.md) (aporta rigurosidad analítica y experiencia en diseño de políticas de becas nacionales).
 * **Formación Académica:** 
   * Economista de profesión.
   * Máster en Administración Pública en Desarrollo Internacional (MPA/ID) por la Harvard Kennedy School, EE. UU.

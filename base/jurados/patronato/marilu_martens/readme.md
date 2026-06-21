@@ -4,7 +4,7 @@
 
 ## Información General
 * **Cargo Actual:** Directora Nacional de CARE Perú (desde abril de 2020).
-* **Rol en el Patronato:** Miembro Externo del Consejo Directivo de la [Asociación Patronato BCP](file:///D:/minkea/base/jurados/patronato_bcp.md) (aporta perspectiva externa, académica y de desarrollo social de alto impacto).
+* **Rol en el Patronato:** Miembro Externo del Consejo Directivo de la [Asociación Patronato BCP](file:///D:/minkea/base/jurados/patronato/patronato_bcp.md) (aporta perspectiva externa, académica y de desarrollo social de alto impacto).
 * **Formación Académica:** 
   * Licenciada en Educación con mención en Educación Especial por la Universidad Femenina del Sagrado Corazón (UNIFE).
   * Maestría en Psicopedagogía por la Universidad Andrés Bello (Chile) (*cum laude*).

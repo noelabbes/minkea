@@ -4,7 +4,7 @@
 
 ## Información General
 * **Cargo Actual:** Gerente General (CEO) del Banco de Crédito del Perú (BCP) y Head de Banca Universal de Credicorp.
-* **Rol en el Patronato:** Miembro de la Asamblea General (en representación del Banco de Crédito del Perú BCP) y miembro del Consejo Directivo de la [Asociación Patronato BCP](file:///D:/minkea/base/jurados/patronato_bcp.md).
+* **Rol en el Patronato:** Miembro de la Asamblea General (en representación del Banco de Crédito del Perú BCP) y miembro del Consejo Directivo de la [Asociación Patronato BCP](file:///D:/minkea/base/jurados/patronato/patronato_bcp.md).
 * **Formación Académica:** 
   * Bachiller en Administración de Empresas de la Universidad de Lima.
   * MBA de la Universidad de Texas en Austin, EE. UU.
