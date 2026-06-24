@@ -61,6 +61,14 @@ graph TD
     *   Los puntos Yape son el catalizador inicial (la recompensa extrínseca que rompe la inercia).
     *   La retención y sostenibilidad se apoya en la motivación intrínseca (conocer personas afines - 63.6% en nuestra encuesta) y la motivación de logro (crecimiento del perfil cívico para empleabilidad futura).
 
+### Sostenibilidad Financiera: El Modelo B2B SaaS (ESG Dashboard)
+*   **Concepto clave:** Monetización de métricas de impacto para corporaciones auspiciadoras.
+*   **La esencia del 80/20:** Las corporaciones no auspician por simple caridad; pagan una suscripción recurrente para obtener **datos de impacto verificados** listos para sus Reportes de Sostenibilidad (ESG) ante inversionistas y reguladores.
+*   **Mecánica:**
+    1.  **Auspicio:** Las empresas patrocinan premios en la tienda de puntos de Minkea.
+    2.  **Licenciamiento:** Minkea cobra una suscripción SaaS por acceder a un portal/dashboard de analítica.
+    3.  **KPIs directos:** El dashboard automatiza la entrega de gráficos y métricas de impacto certificadas (ej. horas de voluntariado de su marca aliada, ODS apoyados), listos para que la empresa los descargue y use en sus auditorías y memorias anuales de sostenibilidad.
+
 ---
 
 
