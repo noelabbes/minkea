@@ -57,6 +57,12 @@ Aquí tienes la artillería pesada que un jurado escéptico les lanzaría para p
     - **Métrica Clave a Evaluar:** Ratio de conversión de "Match" a "Asistencia Física". Nuestras simulaciones iniciales estiman que al segmentar las misiones por el "Match de Pasiones" (intereses afines) y permitir la creación de "squads" (invitar amigos a unirse al mismo punto), la asistencia real física aumenta en un 35% frente a los métodos de difusión pasivos. Los datos empíricos de este piloto cerrado serán consolidados en los próximos 3 meses de la Fase 1 para ajustar el algoritmo de recomendación antes de la convalidación masiva.
 
 
+* **Adopción y Tracción Inicial (Cold Start):** ¿Cómo se aseguran de que el usuario rompa la inercia y realice sus primeras participaciones en Minkea en lugar de solo descargar la app y dejarla inactiva?
+  * **Respuesta tentativa:** Ver el detalle de la estrategia de activación en tres capas (incluyendo mecánicas de Squads, el Bono Yape de bienvenida y alianzas con canales cautivos universitarios) en el archivo dedicado: [pregunta_adopcion.md](../defensa_adopcion/pregunta_adopcion.md).
+
+
 ---
 
 ¿Cuál de estas tres áreas (Negocio/BCP, Técnica, o Competencia) sientes que es el talón de Aquiles actual del equipo para enfocarnos en blindar y estructurar esa respuesta antes del miércoles?
+
+

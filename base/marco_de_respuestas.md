@@ -124,12 +124,19 @@ Este es el bloque de defensa final para las preguntas más difíciles del jurado
     1.  **Cero correlación de riesgo:** Que los primeros datos del piloto demuestren que la morosidad de jóvenes con alto currículum cívico es igual o mayor que la del segmento promedio sin historial.
     2.  **Bloqueo Regulatorio (SBS):** Que la regulación de la SBS impida de manera absoluta el uso de perfiles de conducta alternativa para la flexibilización de requisitos de entrada a productos de crédito.
 
+### **Q56 (Adopción/Cold Start). ¿Cómo se aseguran de que el usuario rompa la inercia y realice sus primeras participaciones en Minkea?**
+*   **Respuesta/Marco:** Ver el detalle de la estrategia de activación en tres capas (squads, bono de bienvenida y convalidación universitaria/B2B) en el archivo dedicado: [pregunta_adopcion.md](file:///D:/minkea/base/defensa_adopcion/pregunta_adopcion.md).
+
 ---
 
-### **La Pregunta Decisiva: "Si mañana desaparecieran los puntos Yape y beneficios económicos, ¿seguiría existiendo Minkea?"**
+
+
+### **La Pregunta Decisiva / Q14: "Si mañana desaparecieran los puntos Yape y beneficios económicos, ¿seguiría existiendo Minkea?"**
 *   **Respuesta/Marco:** **Sí, porque el valor transaccional solo es la rampa de entrada (adquisición), no el destino (retención).**
+    *   *Ver detalle de marco de defensa y alternativas directas:* [pregunta_14.md](file:///D:/minkea/base/defensa_incentivos/pregunta_14.md).
     *   Los puntos Yape reducen la fricción para que el usuario cruce la puerta de su primer voluntariado.
     *   Una vez dentro, la retención se sostiene en la **empleabilidad y el estatus profesional**. El "Currículum Cívico" validado en procesos de selección laboral corporativos e ingresos a universidades provee una recompensa intangible pero vitalicia (empleo real, redes de confianza). Minkea evoluciona de ser una app de recompensas a convertirse en la red de reputación profesional de la juventud peruana.
+
 
 ---
 
