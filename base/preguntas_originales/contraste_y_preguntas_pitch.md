@@ -95,6 +95,8 @@ Para blindar al equipo durante la ronda de preguntas, se deben estructurar las r
 
 ### Defensa para la Sostenibilidad Financiera y Costo de Puntos (P6 y P7)
 *   **Enfoque:** *El costo se financia por el valor del CAC y presupuestos ESG corporativos.* El costo de los descuentos y beneficios de la tienda virtual de Minkea no es una pérdida para el BCP, sino una inversión en la adquisición de clientes jóvenes con un CAC (Costo de Adquisición de Clientes) significativamente menor al de campañas tradicionales de marketing. Además, en la Fase 3, los sponsors corporativos financian los descuentos no como donación, sino a cambio de la data auditada de impacto ambiental y social (ESG) requerida para sus reportes regulatorios. El respaldo del gobierno en la Fase 4 no es para subsistir, sino para convalidar las horas cívicas en programas públicos (como créditos del PRONABEC o servicio civil).
+    *   *Ver detalle de marco de defensa y alternativas directas para P7 (Fase 4):* [pregunta_gobierno.md](../defensa_gobierno/pregunta_gobierno.md).
+
 
 ---
 

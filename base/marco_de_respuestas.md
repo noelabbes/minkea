@@ -63,94 +63,112 @@ graph TD
 
 ---
 
-## 3. Hoja de Ruta para Responder [preguntas_gpt.md](file:///D:/minkea/base/preguntas_originales/preguntas_gpt.md) (Mapeo Estratégico)
 
-Para el ensayo del pitch, utilizaremos esta guía rápida de respuestas para la sección operativa de la lista:
+## 3. Hoja de Ruta para la Defensa Completa (Mapeo por Categorías)
 
-1.  **Preguntas de Muestra/Encuesta (Q2, Q3):**
-    *   *Línea defensiva:* "Nuestra encuesta de Mayo 2026 (18-30 años) sirvió para validar la hipótesis cualitativa inicial. Para la Fase 1 (MVP) en Lima, utilizaremos el piloto cerrado con 3 organizaciones juveniles para establecer la métrica de conversión real antes del escalado masivo."
-2.  **Preguntas de Actividad Política/Extrema o Proselitismo (Q45, Q46):**
-    *   *Línea defensiva:* "El onboarding automatizado filtra colectivos por su registro formal en SENAJU o Municipalidades. Además, las misiones pasan por un pipeline de análisis de texto automático en el backend para descartar keywords y contenidos vinculados a proselitismo político o sectario antes de ser listados."
+Para preparar la ronda de preguntas, hemos organizado las respuestas a las 55 preguntas de [preguntas_gpt.md](file:///D:/minkea/base/preguntas_originales/preguntas_gpt.md) y [preguntas_gemini.md](file:///D:/minkea/base/preguntas_originales/preguntas_gemini.md) en una estructura de carpetas de defensa dedicada. Cada archivo individual provee dos alternativas de respuesta y el manejo de réplicas:
 
----
+### **Pilar I: El Problema (Adquisición y Encuesta)**
+* **Ubicación:** [defensa_problema](file:///D:/minkea/base/defensa_problema)
+* **Preguntas Resueltas:**
+  * [pregunta_1.md](file:///D:/minkea/base/defensa_problema/pregunta_1.md) - Falta de incentivos vs. apatía juvenil (Interés real).
+  * [pregunta_2.md](file:///D:/minkea/base/defensa_problema/pregunta_2.md) - Tamaño de la muestra y validez estadística.
+  * [pregunta_3.md](file:///D:/minkea/base/defensa_problema/pregunta_3.md) - Representatividad a nivel nacional (provincias).
+  * [pregunta_4.md](file:///D:/minkea/base/defensa_problema/pregunta_4.md) - Participación genuina vs. caza de beneficios.
+  * [pregunta_5.md](file:///D:/minkea/base/defensa_problema/pregunta_5.md) - Evidencia de las 3 barreras principales.
 
-## 4. Bloque Crítico: Respuestas para Q47 - Q55 y Pregunta Decisiva
-
-Este es el bloque de defensa final para las preguntas más difíciles del jurado técnico, de negocios y el dilema existencial del producto:
-
-### **Q47. ¿Cómo evitan estafas de usuarios (acumulación falsa de puntos)?**
-*   **Respuesta/Marco:** Ver el detalle de las 3 propuestas técnicas de prevención de fraude y la defensa ante réplicas del jurado en el archivo dedicado: [pregunta_47.md](file:///D:/minkea/base/defensa_fraude/pregunta_47.md).
-
-### **Q48. ¿Cómo evitan organizaciones y actividades fraudulentas (falsos eventos)?**
-*   **Respuesta/Marco:** Filtros progresivos y control comunitario:
-    *   **Identidad Gubernamental:** Integración vía API con SUNARP y padrones de organizaciones juveniles para verificar la personería del colectivo en el onboarding.
-    *   **Sandbox de Confianza:** Las organizaciones nuevas entran en un estado "semi-verificado", pudiendo publicar inicialmente solo misiones con bajas recompensas. Su reputación y límites de puntos asignables aumentan de forma automatizada según la calificación positiva de los usuarios (crowdsourced verification).
-    *   **Flagging Automatizado:** Si tres usuarios verificados en el lugar del evento reportan una anomalía o evento falso, la misión y la cuenta del colectivo son suspendidas automáticamente a la espera de auditoría manual.
-
-### **Q49. ¿Quién responde ante un accidente durante una actividad?**
-*   **Respuesta/Marco:** Responsabilidad delimitada y prevención:
-    *   **Deslinde Legal:** En los Términos y Condiciones, Minkea se establece como una plataforma agregadora de conexión (marketplace), similar al modelo de Uber. La responsabilidad civil de la seguridad del evento recae en la organización que publica la actividad.
-    *   **Declaración de Medidas:** En el onboarding del evento, los colectivos deben declarar sus protocolos de primeros auxilios y si cuentan con seguro de incidentes, lo cual es visible para el voluntario antes de postular.
-    *   **Fase 2 (Seguro de Voluntariado BCP):** Se plantea introducir micro-seguros contra accidentes por día de misión, integrados directamente en la app y financiados a bajo costo o asumidos corporativamente como beneficio de RSE del BCP.
-
-### **Q50. ¿Por qué creen que los jóvenes necesitan una aplicación y no simplemente más liderazgo en sus comunidades?**
-*   **Respuesta/Marco:** El liderazgo comunitario existe, pero la fricción operativa actual previene la acción masiva.
-    *   Los jóvenes de hoy tienen agendas saturadas y desconfían de los canales tradicionales (chats de WhatsApp inactivos, posts en Facebook sin verificación).
-    *   Minkea no reemplaza al líder; le da **tecnología de escala**. Reduce a cero el costo de búsqueda de misiones confiables y flexibles (de 2 a 4 horas), transformando el interés cívico en una acción simple, estructurada y verificable que además aporta a su desarrollo laboral y financiero.
-
-### **Q51. ¿Qué les hace pensar que el problema es tecnológico?**
-*   **Respuesta/Marco:** Es un problema de asimetría informativa y de incentivos de marketplace.
-    *   El 70.4% de los jóvenes está conectado a internet diariamente y el 63.6% desea conectar con otros, pero solo el 5.8% participa activamente. Esta brecha indica que el voluntariado tradicional no encaja con la experiencia de usuario hiperconectada de hoy.
-    *   Se requiere un matching inteligente (reducir fricción informativa) y un sistema gamificado de incentivos (motivar la conversión digital-a-física). Resolver un problema de escala en un marketplace requiere de una plataforma tecnológica sólida.
-
-### **Q52. ¿Cuál es la hipótesis más importante de todo el proyecto?**
-*   **Respuesta/Marco:** Nuestra hipótesis de valor fundamental es:
-    *   *"La conducta cívica recurrente y verificable es un proxy confiable de bajo riesgo crediticio (responsabilidad y comportamiento de pago) para jóvenes sin historial financiero tradicional (Thin Files)."*
-    *   **Si la hipótesis es falsa:** El modelo de negocio de microcréditos y tasas preferenciales de Minkea se cae. En ese escenario, Minkea pivotaría hacia una plataforma SaaS pura de marketing de impacto ESG para sponsors B2B y convalidación de horas de RSE corporativa/universitaria.
-
-### **Q53. ¿Qué aprendieron hablando con usuarios que los hizo cambiar de opinión?**
-*   **Respuesta/Marco:** El pivot del altruismo puro al modelo de incentivo transaccional.
-    *   Inicialmente planeamos una plataforma de voluntariado tradicional basada en reputación moral. Sin embargo, en las entrevistas iniciales descubrimos que la inercia diaria y las presiones económicas de los jóvenes eran barreras insalvables.
-    *   El 72.7% indicó explícitamente que querían descuentos y beneficios. Esto nos forzó a integrar el sistema de **puntos Yape** como la "grúa de arranque" para romper la inercia, balanceándolo con motivadores intrínsecos de comunidad para la retención.
-
-### **Q54. Si les doy solo 50 mil soles, ¿qué experimento ejecutarían para demostrar que esto funciona?**
-*   **Respuesta/Marco:** El Piloto Mínimo Viable (MVP) de Conversión y Retención:
-    1.  **Desarrollo (10k PEN):** Creación de una versión básica web no-code (Glide/FlutterFlow) conectada a base de datos relacional para 3 organizaciones aliadas en Lima.
-    2.  **Incentivos (40k PEN):** Presupuesto de recompensas manuales en vales o transferencias Yape controladas para un grupo de 500 voluntarios activos.
-    3.  **KPI del experimento:** Demostrar que el match inteligente por pasiones y el factor de gamificación incrementan la conversión de registros digitales en asistencias físicas a eventos en al menos un 35% en comparación con la difusión pasiva por redes sociales.
-
-### **Q55. ¿Qué les haría abandonar completamente la idea?**
-*   **Respuesta/Marco:** Dos factores insalvables:
-    1.  **Cero correlación de riesgo:** Que los primeros datos del piloto demuestren que la morosidad de jóvenes con alto currículum cívico es igual o mayor que la del segmento promedio sin historial.
-    2.  **Bloqueo Regulatorio (SBS):** Que la regulación de la SBS impida de manera absoluta el uso de perfiles de conducta alternativa para la flexibilización de requisitos de entrada a productos de crédito.
-
-### **Q56 (Adopción/Cold Start). ¿Cómo se aseguran de que el usuario rompa la inercia y realice sus primeras participaciones en Minkea?**
-*   **Respuesta/Marco:** Ver el detalle de la estrategia de activación en tres capas (squads, bono de bienvenida y convalidación universitaria/B2B) en el archivo dedicado: [pregunta_adopcion.md](file:///D:/minkea/base/defensa_adopcion/pregunta_adopcion.md).
-
----
+### **Pilar II: La Solución (Plataforma y Verificación)**
+* **Ubicación:** [defensa_solucion](file:///D:/minkea/base/defensa_solucion) y [defensa_adopcion](file:///D:/minkea/base/defensa_adopcion)
+* **Preguntas Resueltas:**
+  * [pregunta_adopcion.md](file:///D:/minkea/base/defensa_adopcion/pregunta_adopcion.md) - Cómo romper el Cold Start e incentivar la primera asistencia (Q56 / Q7 / Q8).
+  * [pregunta_flujo_usuario.md](file:///D:/minkea/base/defensa_solucion/pregunta_flujo_usuario.md) - Flujo y viaje detallado de los voluntarios y organizaciones (UX / Journey).
+  * [pregunta_6.md](file:///D:/minkea/base/defensa_solucion/pregunta_6.md) - Diferencia y valor frente a Instagram, Facebook y WhatsApp.
+  * [pregunta_7.md](file:///D:/minkea/base/defensa_solucion/pregunta_7.md) - Motivadores de descarga (fricción de app nueva).
+  * [pregunta_8.md](file:///D:/minkea/base/defensa_solucion/pregunta_8.md) - Marketplace cold start (si nadie publica misiones).
+  * [pregunta_9.md](file:///D:/minkea/base/defensa_solucion/pregunta_9.md) - Quién crea y alimenta las misiones en la app (B2B onboarding).
+  * [pregunta_10.md](file:///D:/minkea/base/defensa_solucion/pregunta_10.md) - Método técnico para verificar la asistencia física del usuario.
+  * [pregunta_12.md](file:///D:/minkea/base/defensa_solucion/pregunta_12.md) - Medición y calificación de la calidad de participación.
+  * [pregunta_13.md](file:///D:/minkea/base/defensa_solucion/pregunta_13.md) - Evitar y moderar actividades falsas en el feed.
 
 
+### **Pilar III: Los Incentivos y ROI**
+* **Ubicación:** [defensa_incentivos](file:///D:/minkea/base/defensa_incentivos) y [defensa_gobierno](file:///D:/minkea/base/defensa_gobierno)
+* **Preguntas Resueltas:**
+  * [pregunta_14.md](file:///D:/minkea/base/defensa_incentivos/pregunta_14.md) - Qué pasa si desaparecen los puntos Yape (Pregunta Decisiva).
+  * [pregunta_15.md](file:///D:/minkea/base/defensa_incentivos/pregunta_15.md) - Retorno de Inversión (ROI) y valor estratégico para el BCP.
+  * [pregunta_16.md](file:///D:/minkea/base/defensa_incentivos/pregunta_16.md) - Presupuesto e impacto de financiamiento a escala masiva.
+  * [pregunta_17.md](file:///D:/minkea/base/defensa_incentivos/pregunta_17.md) - Retención tras el fin de campañas de beneficios temporales.
+  * [pregunta_18.md](file:///D:/minkea/base/defensa_incentivos/pregunta_18.md) - Sustento conductual de recompensas en la formación de hábitos.
+  * [pregunta_gobierno.md](file:///D:/minkea/base/defensa_gobierno/pregunta_gobierno.md) - Rol del Estado en la Fase 4 y viabilidad financiera a largo plazo (P7).
 
-### **La Pregunta Decisiva / Q14: "Si mañana desaparecieran los puntos Yape y beneficios económicos, ¿seguiría existiendo Minkea?"**
-*   **Respuesta/Marco:** **Sí, porque el valor transaccional solo es la rampa de entrada (adquisición), no el destino (retención).**
-    *   *Ver detalle de marco de defensa y alternativas directas:* [pregunta_14.md](file:///D:/minkea/base/defensa_incentivos/pregunta_14.md).
-    *   Los puntos Yape reducen la fricción para que el usuario cruce la puerta de su primer voluntariado.
-    *   Una vez dentro, la retención se sostiene en la **empleabilidad y el estatus profesional**. El "Currículum Cívico" validado en procesos de selección laboral corporativos e ingresos a universidades provee una recompensa intangible pero vitalicia (empleo real, redes de confianza). Minkea evoluciona de ser una app de recompensas a convertirse en la red de reputación profesional de la juventud peruana.
+### **Pilar IV: El Currículum Cívico (Reputación Laboral)**
+* **Ubicación:** [defensa_curriculum](file:///D:/minkea/base/defensa_curriculum)
+* **Preguntas Resueltas:**
+  * [pregunta_19.md](file:///D:/minkea/base/defensa_curriculum/pregunta_19.md) - Por qué las empresas valoran este historial (Costo de selección).
+  * [pregunta_20.md](file:///D:/minkea/base/defensa_curriculum/pregunta_20.md) - Traducción de actividades físicas a competencias laborales.
+  * [pregunta_21.md](file:///D:/minkea/base/defensa_curriculum/pregunta_21.md) - Seguridad ante manipulación y suplantación de la credencial.
+  * [pregunta_22.md](file:///D:/minkea/base/defensa_curriculum/pregunta_22.md) - Quién pondera y clasifica el valor de las misiones comunitarias.
+  * [pregunta_23.md](file:///D:/minkea/base/defensa_curriculum/pregunta_23.md) - Inclusión y mitigación del sesgo de falta de tiempo libre.
+
+### **Pilar V: Microcréditos y Regulación (El Negocio)**
+* **Ubicación:** [defensa_microcreditos](file:///D:/minkea/base/defensa_microcreditos)
+* **Preguntas Resueltas:**
+  * [pregunta_24.md](file:///D:/minkea/base/defensa_microcreditos/pregunta_24.md) - Correlación de civismo con reducción de riesgo.
+  * [pregunta_25.md](file:///D:/minkea/base/defensa_microcreditos/pregunta_25.md) - Evidencia global sobre voluntad de pago y civismo.
+  * [pregunta_26.md](file:///D:/minkea/base/defensa_microcreditos/pregunta_26.md) - Justificación regulatoria ante la SBS para flexibilizar riesgos.
+  * [pregunta_27.md](file:///D:/minkea/base/defensa_microcreditos/pregunta_27.md) - Mitigación ante la explotación oportunista de crédito.
+  * [pregunta_28.md](file:///D:/minkea/base/defensa_microcreditos/pregunta_28.md) - Manejo de la morosidad de un usuario con perfil cívico alto.
+
+### **Pilar VI: Competencia y Foso Defensivo**
+* **Ubicación:** [defensa_competencia](file:///D:/minkea/base/defensa_competencia)
+* **Preguntas Resueltas:**
+  * [pregunta_29.md](file:///D:/minkea/base/defensa_competencia/pregunta_29.md) - Qué hace a Minkea defendible ante una copia de Yape en 6 meses.
+  * [pregunta_30.md](file:///D:/minkea/base/defensa_competencia/pregunta_30.md) - Ventajas sobre directorios tradicionales (PROA, Bicentenario).
+  * [pregunta_31.md](file:///D:/minkea/base/defensa_competencia/pregunta_31.md) - Barreras de entrada de negocio y data loops.
+  * [pregunta_32.md](file:///D:/minkea/base/defensa_competencia/pregunta_32.md) - Por qué no se ha hecho antes en el mercado local.
+
+### **Pilar VII: El Impacto Estimado**
+* **Ubicación:** [defensa_impacto](file:///D:/minkea/base/defensa_impacto)
+* **Preguntas Resueltas:**
+  * [pregunta_33.md](file:///D:/minkea/base/defensa_impacto/pregunta_33.md) - Origen del 23.8% de penetración del mercado direccionable.
+  * [pregunta_34.md](file:///D:/minkea/base/defensa_impacto/pregunta_34.md) - Justificación del aumento de participación del 5.8% al 23.8%.
+  * [pregunta_35.md](file:///D:/minkea/base/defensa_impacto/pregunta_35.md) - Métricas de éxito en los primeros 12 meses de operación.
+  * [pregunta_36.md](file:///D:/minkea/base/defensa_impacto/pregunta_36.md) - Definición del KPI principal (North Star Metric).
+  * [pregunta_37.md](file:///D:/minkea/base/defensa_impacto/pregunta_37.md) - Atribución de causalidad (Experimentos A/B).
+
+### **Pilar VIII: Escalabilidad y Costos**
+* **Ubicación:** [defensa_escalabilidad](file:///D:/minkea/base/defensa_escalabilidad)
+* **Preguntas Resueltas:**
+  * [pregunta_38.md](file:///D:/minkea/base/defensa_escalabilidad/pregunta_38.md) - Costo de adquisición por usuario (CAC) vs. canales de pauta.
+  * [pregunta_39.md](file:///D:/minkea/base/defensa_escalabilidad/pregunta_39.md) - Costos operativos por actividad completada en la nube.
+  * [pregunta_40.md](file:///D:/minkea/base/defensa_escalabilidad/pregunta_40.md) - Financiamiento del backend de manera independiente.
+  * [pregunta_41.md](file:///D:/minkea/base/defensa_escalabilidad/pregunta_41.md) - Monetización B2B y sustentación financiera a largo plazo.
+  * [pregunta_42.md](file:///D:/minkea/base/defensa_escalabilidad/pregunta_42.md) - Estrategia de salida ante la retirada de Yape/BCP.
+  * [pregunta_43.md](file:///D:/minkea/base/defensa_escalabilidad/pregunta_43.md) - Viabilidad del modelo sin apoyo gubernamental o subsidios.
+
+### **Pilar IX: Mitigación de Riesgos**
+* **Ubicación:** [defensa_riesgos](file:///D:/minkea/base/defensa_riesgos) y [defensa_fraude](file:///D:/minkea/base/defensa_fraude)
+* **Preguntas Resueltas:**
+  * [pregunta_47.md](file:///D:/minkea/base/defensa_fraude/pregunta_47.md) - Fraude técnico (GPS spoofing, check-ins falsos, etc.).
+  * [pregunta_44.md](file:///D:/minkea/base/defensa_riesgos/pregunta_44.md) - Riesgo reputacional directo para la marca BCP.
+  * [pregunta_45.md](file:///D:/minkea/base/defensa_riesgos/pregunta_45.md) - Control y bloqueo de misiones con fines de activismo político.
+  * [pregunta_46.md](file:///D:/minkea/base/defensa_riesgos/pregunta_46.md) - Control y bloqueo de proselitismo religioso camuflado.
+  * [pregunta_48.md](file:///D:/minkea/base/defensa_riesgos/pregunta_48.md) - Prevención de organizaciones y misiones fantasmas.
+  * [pregunta_49.md](file:///D:/minkea/base/defensa_riesgos/pregunta_49.md) - Responsabilidad legal y civil ante accidentes en campo.
+
+### **Pilar X: El Jurado más Duro (Dilemas Estratégicos)**
+* **Ubicación:** [defensa_jurado](file:///D:/minkea/base/defensa_jurado)
+* **Preguntas Resueltas:**
+  * [pregunta_50.md](file:///D:/minkea/base/defensa_jurado/pregunta_50.md) - Por qué los jóvenes necesitan software y no liderazgo local.
+  * [pregunta_51.md](file:///D:/minkea/base/defensa_jurado/pregunta_51.md) - Justificación de la tecnología frente a un reto cultural.
+  * [pregunta_52.md](file:///D:/minkea/base/defensa_jurado/pregunta_52.md) - Cuál es la hipótesis más arriesgada de la propuesta.
+  * [pregunta_53.md](file:///D:/minkea/base/defensa_jurado/pregunta_53.md) - Pivot de diseño aprendido en las entrevistas con usuarios.
+  * [pregunta_54.md](file:///D:/minkea/base/defensa_jurado/pregunta_54.md) - Experimento de validación rápida con S/ 50k.
+  * [pregunta_55.md](file:///D:/minkea/base/defensa_jurado/pregunta_55.md) - Qué datos obligarían a abandonar la idea por completo.
+
+### **Pilar XI: Defensa Técnica y Arquitectura (Blockchain e IA)**
+* **Ubicación:** [defensa_tecnica](file:///D:/minkea/base/defensa_tecnica)
+* **Preguntas Resueltas:**
+  * [pregunta_blockchain_ia.md](file:///D:/minkea/base/defensa_tecnica/pregunta_blockchain_ia.md) - Utilidad y justificación de Blockchain e IA en una app cívica (mitigación de over-engineering).
 
 
----
-
-## 5. Sección de Microcréditos (Preguntas 24 a 28)
-
-Esta sección aborda la viabilidad financiera, el riesgo crediticio y la regulación SBS ante el jurado financiero:
-
-*   **Q24. ¿Por qué una actividad comunitaria debería reducir el riesgo crediticio?**
-    *   *Ver detalle de respuesta y réplicas:* [pregunta_24.md](file:///D:/minkea/base/defensa_microcreditos/pregunta_24.md).
-*   **Q25. ¿Qué evidencia existe de correlación entre civismo y capacidad de pago?**
-    *   *Ver detalle de respuesta y réplicas:* [pregunta_25.md](file:///D:/minkea/base/defensa_microcreditos/pregunta_25.md).
-*   **Q26. ¿Cómo justificarían ante regulación y riesgo del banco otorgar condiciones preferenciales?**
-    *   *Ver detalle de respuesta y réplicas:* [pregunta_26.md](file:///D:/minkea/base/defensa_microcreditos/pregunta_26.md).
-*   **Q27. ¿No estarían creando un sistema fácilmente explotable?**
-    *   *Ver detalle de respuesta y réplicas:* [pregunta_27.md](file:///D:/minkea/base/defensa_microcreditos/pregunta_27.md).
-*   **Q28. ¿Qué pasaría si un mal pagador tiene un excelente perfil cívico?**
-    *   *Ver detalle de respuesta y réplicas:* [pregunta_28.md](file:///D:/minkea/base/defensa_microcreditos/pregunta_28.md).
