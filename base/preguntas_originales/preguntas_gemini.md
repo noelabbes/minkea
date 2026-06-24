@@ -58,7 +58,7 @@ Aquí tienes la artillería pesada que un jurado escéptico les lanzaría para p
 
 
 * **Adopción y Tracción Inicial (Cold Start):** ¿Cómo se aseguran de que el usuario rompa la inercia y realice sus primeras participaciones en Minkea en lugar de solo descargar la app y dejarla inactiva?
-  * **Respuesta tentativa:** Ver el detalle de la estrategia de activación en tres capas (incluyendo mecánicas de Squads, el Bono Yape de bienvenida y alianzas con canales cautivos universitarios) en el archivo dedicado: [pregunta_adopcion.md](../defensa_adopcion/pregunta_adopcion.md).
+  * **Respuesta tentativa:** Ver el detalle de la estrategia de activación en tres capas (incluyendo mecánicas de Squads, el Bono Yape de bienvenida y alianzas con canales cautivos universitarios) en el archivo dedicado: [activacion_primeras_participaciones.md](../defensa_adopcion/activacion_primeras_participaciones.md).
 
 
 ---

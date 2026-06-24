@@ -71,104 +71,106 @@ Para preparar la ronda de preguntas, hemos organizado las respuestas a las 55 pr
 ### **Pilar I: El Problema (Adquisición y Encuesta)**
 * **Ubicación:** [defensa_problema](file:///D:/minkea/base/defensa_problema)
 * **Preguntas Resueltas:**
-  * [pregunta_1.md](file:///D:/minkea/base/defensa_problema/pregunta_1.md) - Falta de incentivos vs. apatía juvenil (Interés real).
-  * [pregunta_2.md](file:///D:/minkea/base/defensa_problema/pregunta_2.md) - Tamaño de la muestra y validez estadística.
-  * [pregunta_3.md](file:///D:/minkea/base/defensa_problema/pregunta_3.md) - Representatividad a nivel nacional (provincias).
-  * [pregunta_4.md](file:///D:/minkea/base/defensa_problema/pregunta_4.md) - Participación genuina vs. caza de beneficios.
-  * [pregunta_5.md](file:///D:/minkea/base/defensa_problema/pregunta_5.md) - Evidencia de las 3 barreras principales.
+  * [apatia_falta_incentivos.md](file:///D:/minkea/base/defensa_problema/apatia_falta_incentivos.md) - Falta de incentivos vs. apatía juvenil (Interés real).
+  * [tamano_muestra_encuesta.md](file:///D:/minkea/base/defensa_problema/tamano_muestra_encuesta.md) - Tamaño de la muestra y validez estadística.
+  * [representatividad_nacional_provincias.md](file:///D:/minkea/base/defensa_problema/representatividad_nacional_provincias.md) - Representatividad a nivel nacional (provincias).
+  * [cazadores_beneficios_genuino.md](file:///D:/minkea/base/defensa_problema/cazadores_beneficios_genuino.md) - Participación genuina vs. caza de beneficios.
+  * [evidencia_barreras_principales.md](file:///D:/minkea/base/defensa_problema/evidencia_barreras_principales.md) - Evidencia de las 3 barreras principales.
 
 ### **Pilar II: La Solución (Plataforma y Verificación)**
 * **Ubicación:** [defensa_solucion](file:///D:/minkea/base/defensa_solucion) y [defensa_adopcion](file:///D:/minkea/base/defensa_adopcion)
 * **Preguntas Resueltas:**
-  * [pregunta_adopcion.md](file:///D:/minkea/base/defensa_adopcion/pregunta_adopcion.md) - Cómo romper el Cold Start e incentivar la primera asistencia (Q56 / Q7 / Q8).
-  * [pregunta_flujo_usuario.md](file:///D:/minkea/base/defensa_solucion/pregunta_flujo_usuario.md) - Flujo y viaje detallado de los voluntarios y organizaciones (UX / Journey).
-  * [pregunta_6.md](file:///D:/minkea/base/defensa_solucion/pregunta_6.md) - Diferencia y valor frente a Instagram, Facebook y WhatsApp.
-  * [pregunta_7.md](file:///D:/minkea/base/defensa_solucion/pregunta_7.md) - Motivadores de descarga (fricción de app nueva).
-  * [pregunta_8.md](file:///D:/minkea/base/defensa_solucion/pregunta_8.md) - Marketplace cold start (si nadie publica misiones).
-  * [pregunta_9.md](file:///D:/minkea/base/defensa_solucion/pregunta_9.md) - Quién crea y alimenta las misiones en la app (B2B onboarding).
-  * [pregunta_10.md](file:///D:/minkea/base/defensa_solucion/pregunta_10.md) - Método técnico para verificar la asistencia física del usuario.
-  * [pregunta_12.md](file:///D:/minkea/base/defensa_solucion/pregunta_12.md) - Medición y calificación de la calidad de participación.
-  * [pregunta_13.md](file:///D:/minkea/base/defensa_solucion/pregunta_13.md) - Evitar y moderar actividades falsas en el feed.
+  * [activacion_primeras_participaciones.md](file:///D:/minkea/base/defensa_adopcion/activacion_primeras_participaciones.md) - Cómo romper el Cold Start e incentivar la primera asistencia (Q56 / Q7 / Q8).
+  * [flujo_usuario_colectivo.md](file:///D:/minkea/base/defensa_solucion/flujo_usuario_colectivo.md) - Flujo y viaje detallado de los voluntarios y organizaciones (UX / Journey).
+  * [funcionalidades_alcance_mvp.md](file:///D:/minkea/base/defensa_solucion/funcionalidades_alcance_mvp.md) - Definición del alcance del MVP y justificación de funciones diferidas (Lean Scope).
+  * [diferenciacion_redes_sociales.md](file:///D:/minkea/base/defensa_solucion/diferenciacion_redes_sociales.md) - Diferencia y valor frente a Instagram, Facebook y WhatsApp.
+  * [friccion_descarga_app.md](file:///D:/minkea/base/defensa_solucion/friccion_descarga_app.md) - Motivadores de descarga (fricción de app nueva).
+  * [marketplace_cold_start.md](file:///D:/minkea/base/defensa_solucion/marketplace_cold_start.md) - Marketplace cold start (si nadie publica misiones).
+  * [onboarding_creadores_actividades.md](file:///D:/minkea/base/defensa_solucion/onboarding_creadores_actividades.md) - Quién crea y alimenta las misiones en la app (B2B onboarding).
+  * [verificacion_asistencia_campo.md](file:///D:/minkea/base/defensa_solucion/verificacion_asistencia_campo.md) - Método técnico para verificar la asistencia física del usuario.
+  * [medicion_calidad_participacion.md](file:///D:/minkea/base/defensa_solucion/medicion_calidad_participacion.md) - Medición y calificación de la calidad de participación.
+  * [moderacion_actividades_falsas.md](file:///D:/minkea/base/defensa_solucion/moderacion_actividades_falsas.md) - Evitar y moderar actividades falsas en el feed.
+
 
 
 ### **Pilar III: Los Incentivos y ROI**
 * **Ubicación:** [defensa_incentivos](file:///D:/minkea/base/defensa_incentivos) y [defensa_gobierno](file:///D:/minkea/base/defensa_gobierno)
 * **Preguntas Resueltas:**
-  * [pregunta_14.md](file:///D:/minkea/base/defensa_incentivos/pregunta_14.md) - Qué pasa si desaparecen los puntos Yape (Pregunta Decisiva).
-  * [pregunta_15.md](file:///D:/minkea/base/defensa_incentivos/pregunta_15.md) - Retorno de Inversión (ROI) y valor estratégico para el BCP.
-  * [pregunta_16.md](file:///D:/minkea/base/defensa_incentivos/pregunta_16.md) - Presupuesto e impacto de financiamiento a escala masiva.
-  * [pregunta_17.md](file:///D:/minkea/base/defensa_incentivos/pregunta_17.md) - Retención tras el fin de campañas de beneficios temporales.
-  * [pregunta_18.md](file:///D:/minkea/base/defensa_incentivos/pregunta_18.md) - Sustento conductual de recompensas en la formación de hábitos.
-  * [pregunta_gobierno.md](file:///D:/minkea/base/defensa_gobierno/pregunta_gobierno.md) - Rol del Estado en la Fase 4 y viabilidad financiera a largo plazo (P7).
+  * [viabilidad_sin_yape.md](file:///D:/minkea/base/defensa_incentivos/viabilidad_sin_yape.md) - Qué pasa si desaparecen los puntos Yape (Pregunta Decisiva).
+  * [retorno_inversion_bcp.md](file:///D:/minkea/base/defensa_incentivos/retorno_inversion_bcp.md) - Retorno de Inversión (ROI) y valor estratégico para el BCP.
+  * [financiamiento_recompensas_escala.md](file:///D:/minkea/base/defensa_incentivos/financiamiento_recompensas_escala.md) - Presupuesto e impacto de financiamiento a escala masiva.
+  * [cese_incentivos_retencion.md](file:///D:/minkea/base/defensa_incentivos/cese_incentivos_retencion.md) - Retención tras el fin de campañas de beneficios temporales.
+  * [habito_recompensa_conducta.md](file:///D:/minkea/base/defensa_incentivos/habito_recompensa_conducta.md) - Sustento conductual de recompensas en la formación de hábitos.
+  * [respaldo_gubernamental_convalidacion.md](file:///D:/minkea/base/defensa_gobierno/respaldo_gubernamental_convalidacion.md) - Rol del Estado en la Fase 4 y viabilidad financiera a largo plazo (P7).
 
 ### **Pilar IV: El Currículum Cívico (Reputación Laboral)**
 * **Ubicación:** [defensa_curriculum](file:///D:/minkea/base/defensa_curriculum)
 * **Preguntas Resueltas:**
-  * [pregunta_19.md](file:///D:/minkea/base/defensa_curriculum/pregunta_19.md) - Por qué las empresas valoran este historial (Costo de selección).
-  * [pregunta_20.md](file:///D:/minkea/base/defensa_curriculum/pregunta_20.md) - Traducción de actividades físicas a competencias laborales.
-  * [pregunta_21.md](file:///D:/minkea/base/defensa_curriculum/pregunta_21.md) - Seguridad ante manipulación y suplantación de la credencial.
-  * [pregunta_22.md](file:///D:/minkea/base/defensa_curriculum/pregunta_22.md) - Quién pondera y clasifica el valor de las misiones comunitarias.
-  * [pregunta_23.md](file:///D:/minkea/base/defensa_curriculum/pregunta_23.md) - Inclusión y mitigación del sesgo de falta de tiempo libre.
+  * [valor_curriculum_empresas.md](file:///D:/minkea/base/defensa_curriculum/valor_curriculum_empresas.md) - Por qué las empresas valoran este historial (Costo de selección).
+  * [traduccion_competencias_laborales.md](file:///D:/minkea/base/defensa_curriculum/traduccion_competencias_laborales.md) - Traducción de actividades físicas a competencias laborales.
+  * [seguridad_curriculum_manipulacion.md](file:///D:/minkea/base/defensa_curriculum/seguridad_curriculum_manipulacion.md) - Seguridad ante manipulación y suplantación de la credencial.
+  * [ponderacion_escala_misiones.md](file:///D:/minkea/base/defensa_curriculum/ponderacion_escala_misiones.md) - Quién pondera y clasifica el valor de las misiones comunitarias.
+  * [inclusividad_brecha_tiempo.md](file:///D:/minkea/base/defensa_curriculum/inclusividad_brecha_tiempo.md) - Inclusión y mitigación del sesgo de falta de tiempo libre.
 
 ### **Pilar V: Microcréditos y Regulación (El Negocio)**
 * **Ubicación:** [defensa_microcreditos](file:///D:/minkea/base/defensa_microcreditos)
 * **Preguntas Resueltas:**
-  * [pregunta_24.md](file:///D:/minkea/base/defensa_microcreditos/pregunta_24.md) - Correlación de civismo con reducción de riesgo.
-  * [pregunta_25.md](file:///D:/minkea/base/defensa_microcreditos/pregunta_25.md) - Evidencia global sobre voluntad de pago y civismo.
-  * [pregunta_26.md](file:///D:/minkea/base/defensa_microcreditos/pregunta_26.md) - Justificación regulatoria ante la SBS para flexibilizar riesgos.
-  * [pregunta_27.md](file:///D:/minkea/base/defensa_microcreditos/pregunta_27.md) - Mitigación ante la explotación oportunista de crédito.
-  * [pregunta_28.md](file:///D:/minkea/base/defensa_microcreditos/pregunta_28.md) - Manejo de la morosidad de un usuario con perfil cívico alto.
+  * [civismo_riesgo_crediticio.md](file:///D:/minkea/base/defensa_microcreditos/civismo_riesgo_crediticio.md) - Correlación de civismo con reducción de riesgo.
+  * [evidencia_voluntad_pago.md](file:///D:/minkea/base/defensa_microcreditos/evidencia_voluntad_pago.md) - Evidencia global sobre voluntad de pago y civismo.
+  * [regulacion_sbs_riesgos.md](file:///D:/minkea/base/defensa_microcreditos/regulacion_sbs_riesgos.md) - Justificación regulatoria ante la SBS para flexibilizar riesgos.
+  * [explotacion_sistema_credito.md](file:///D:/minkea/base/defensa_microcreditos/explotacion_sistema_credito.md) - Mitigación ante la explotación oportunista de crédito.
+  * [morosidad_perfil_civico.md](file:///D:/minkea/base/defensa_microcreditos/morosidad_perfil_civico.md) - Manejo de la morosidad de un usuario con perfil cívico alto.
 
 ### **Pilar VI: Competencia y Foso Defensivo**
 * **Ubicación:** [defensa_competencia](file:///D:/minkea/base/defensa_competencia)
 * **Preguntas Resueltas:**
-  * [pregunta_29.md](file:///D:/minkea/base/defensa_competencia/pregunta_29.md) - Qué hace a Minkea defendible ante una copia de Yape en 6 meses.
-  * [pregunta_30.md](file:///D:/minkea/base/defensa_competencia/pregunta_30.md) - Ventajas sobre directorios tradicionales (PROA, Bicentenario).
-  * [pregunta_31.md](file:///D:/minkea/base/defensa_competencia/pregunta_31.md) - Barreras de entrada de negocio y data loops.
-  * [pregunta_32.md](file:///D:/minkea/base/defensa_competencia/pregunta_32.md) - Por qué no se ha hecho antes en el mercado local.
+  * [defendibilidad_copia_yape.md](file:///D:/minkea/base/defensa_competencia/defendibilidad_copia_yape.md) - Qué hace a Minkea defendible ante una copia de Yape en 6 meses.
+  * [ventaja_competitiva_proa.md](file:///D:/minkea/base/defensa_competencia/ventaja_competitiva_proa.md) - Ventajas sobre directorios tradicionales (PROA, Bicentenario).
+  * [barreras_entrada_moat.md](file:///D:/minkea/base/defensa_competencia/barreras_entrada_moat.md) - Barreras de entrada de negocio y data loops.
+  * [novedad_mercado_peruano.md](file:///D:/minkea/base/defensa_competencia/novedad_mercado_peruano.md) - Por qué no se ha hecho antes en el mercado local.
 
 ### **Pilar VII: El Impacto Estimado**
 * **Ubicación:** [defensa_impacto](file:///D:/minkea/base/defensa_impacto)
 * **Preguntas Resueltas:**
-  * [pregunta_33.md](file:///D:/minkea/base/defensa_impacto/pregunta_33.md) - Origen del 23.8% de penetración del mercado direccionable.
-  * [pregunta_34.md](file:///D:/minkea/base/defensa_impacto/pregunta_34.md) - Justificación del aumento de participación del 5.8% al 23.8%.
-  * [pregunta_35.md](file:///D:/minkea/base/defensa_impacto/pregunta_35.md) - Métricas de éxito en los primeros 12 meses de operación.
-  * [pregunta_36.md](file:///D:/minkea/base/defensa_impacto/pregunta_36.md) - Definición del KPI principal (North Star Metric).
-  * [pregunta_37.md](file:///D:/minkea/base/defensa_impacto/pregunta_37.md) - Atribución de causalidad (Experimentos A/B).
+  * [proyeccion_mercado_activacion.md](file:///D:/minkea/base/defensa_impacto/proyeccion_mercado_activacion.md) - Origen del 23.8% de penetración del mercado direccionable.
+  * [aumento_participacion_real.md](file:///D:/minkea/base/defensa_impacto/aumento_participacion_real.md) - Justificación del aumento de participación del 5.8% al 23.8%.
+  * [metricas_exito_piloto.md](file:///D:/minkea/base/defensa_impacto/metricas_exito_piloto.md) - Métricas de éxito en los primeros 12 meses de operación.
+  * [north_star_metric.md](file:///D:/minkea/base/defensa_impacto/north_star_metric.md) - Definición del KPI principal (North Star Metric).
+  * [atribucion_impacto_experimento.md](file:///D:/minkea/base/defensa_impacto/atribucion_impacto_experimento.md) - Atribución de causalidad (Experimentos A/B).
 
 ### **Pilar VIII: Escalabilidad y Costos**
 * **Ubicación:** [defensa_escalabilidad](file:///D:/minkea/base/defensa_escalabilidad)
 * **Preguntas Resueltas:**
-  * [pregunta_38.md](file:///D:/minkea/base/defensa_escalabilidad/pregunta_38.md) - Costo de adquisición por usuario (CAC) vs. canales de pauta.
-  * [pregunta_39.md](file:///D:/minkea/base/defensa_escalabilidad/pregunta_39.md) - Costos operativos por actividad completada en la nube.
-  * [pregunta_40.md](file:///D:/minkea/base/defensa_escalabilidad/pregunta_40.md) - Financiamiento del backend de manera independiente.
-  * [pregunta_41.md](file:///D:/minkea/base/defensa_escalabilidad/pregunta_41.md) - Monetización B2B y sustentación financiera a largo plazo.
-  * [pregunta_42.md](file:///D:/minkea/base/defensa_escalabilidad/pregunta_42.md) - Estrategia de salida ante la retirada de Yape/BCP.
-  * [pregunta_43.md](file:///D:/minkea/base/defensa_escalabilidad/pregunta_43.md) - Viabilidad del modelo sin apoyo gubernamental o subsidios.
+  * [costo_adquisicion_usuario.md](file:///D:/minkea/base/defensa_escalabilidad/costo_adquisicion_usuario.md) - Costo de adquisición por usuario (CAC) vs. canales de pauta.
+  * [costo_operacion_mision.md](file:///D:/minkea/base/defensa_escalabilidad/costo_operacion_mision.md) - Costos operativos por actividad completada en la nube.
+  * [financiamiento_backend_saas.md](file:///D:/minkea/base/defensa_escalabilidad/financiamiento_backend_saas.md) - Financiamiento del backend de manera independiente.
+  * [modelo_monetizacion_sostenible.md](file:///D:/minkea/base/defensa_escalabilidad/modelo_monetizacion_sostenible.md) - Monetización B2B y sustentación financiera a largo plazo.
+  * [contingencia_salida_bcp.md](file:///D:/minkea/base/defensa_escalabilidad/contingencia_salida_bcp.md) - Estrategia de salida ante la retirada de Yape/BCP.
+  * [autosuficiencia_sin_estado.md](file:///D:/minkea/base/defensa_escalabilidad/autosuficiencia_sin_estado.md) - Viabilidad del modelo sin apoyo gubernamental o subsidios.
 
 ### **Pilar IX: Mitigación de Riesgos**
 * **Ubicación:** [defensa_riesgos](file:///D:/minkea/base/defensa_riesgos) y [defensa_fraude](file:///D:/minkea/base/defensa_fraude)
 * **Preguntas Resueltas:**
-  * [pregunta_47.md](file:///D:/minkea/base/defensa_fraude/pregunta_47.md) - Fraude técnico (GPS spoofing, check-ins falsos, etc.).
-  * [pregunta_44.md](file:///D:/minkea/base/defensa_riesgos/pregunta_44.md) - Riesgo reputacional directo para la marca BCP.
-  * [pregunta_45.md](file:///D:/minkea/base/defensa_riesgos/pregunta_45.md) - Control y bloqueo de misiones con fines de activismo político.
-  * [pregunta_46.md](file:///D:/minkea/base/defensa_riesgos/pregunta_46.md) - Control y bloqueo de proselitismo religioso camuflado.
-  * [pregunta_48.md](file:///D:/minkea/base/defensa_riesgos/pregunta_48.md) - Prevención de organizaciones y misiones fantasmas.
-  * [pregunta_49.md](file:///D:/minkea/base/defensa_riesgos/pregunta_49.md) - Responsabilidad legal y civil ante accidentes en campo.
+  * [prevencion_fraude_usuarios.md](file:///D:/minkea/base/defensa_fraude/prevencion_fraude_usuarios.md) - Fraude técnico (GPS spoofing, check-ins falsos, etc.).
+  * [riesgo_reputacional_bcp.md](file:///D:/minkea/base/defensa_riesgos/riesgo_reputacional_bcp.md) - Riesgo reputacional directo para la marca BCP.
+  * [control_contenido_politico.md](file:///D:/minkea/base/defensa_riesgos/control_contenido_politico.md) - Control y bloqueo de misiones con fines de activismo político.
+  * [neutralidad_proselitismo_religioso.md](file:///D:/minkea/base/defensa_riesgos/neutralidad_proselitismo_religioso.md) - Control y bloqueo de proselitismo religioso camuflado.
+  * [sandbox_colectivos_falsos.md](file:///D:/minkea/base/defensa_riesgos/sandbox_colectivos_falsos.md) - Prevención de organizaciones y misiones fantasmas.
+  * [responsabilidad_legal_accidentes.md](file:///D:/minkea/base/defensa_riesgos/responsabilidad_legal_accidentes.md) - Responsabilidad legal y civil ante accidentes en campo.
 
 ### **Pilar X: El Jurado más Duro (Dilemas Estratégicos)**
 * **Ubicación:** [defensa_jurado](file:///D:/minkea/base/defensa_jurado)
 * **Preguntas Resueltas:**
-  * [pregunta_50.md](file:///D:/minkea/base/defensa_jurado/pregunta_50.md) - Por qué los jóvenes necesitan software y no liderazgo local.
-  * [pregunta_51.md](file:///D:/minkea/base/defensa_jurado/pregunta_51.md) - Justificación de la tecnología frente a un reto cultural.
-  * [pregunta_52.md](file:///D:/minkea/base/defensa_jurado/pregunta_52.md) - Cuál es la hipótesis más arriesgada de la propuesta.
-  * [pregunta_53.md](file:///D:/minkea/base/defensa_jurado/pregunta_53.md) - Pivot de diseño aprendido en las entrevistas con usuarios.
-  * [pregunta_54.md](file:///D:/minkea/base/defensa_jurado/pregunta_54.md) - Experimento de validación rápida con S/ 50k.
-  * [pregunta_55.md](file:///D:/minkea/base/defensa_jurado/pregunta_55.md) - Qué datos obligarían a abandonar la idea por completo.
+  * [necesidad_app_liderazgo.md](file:///D:/minkea/base/defensa_jurado/necesidad_app_liderazgo.md) - Por qué los jóvenes necesitan software y no liderazgo local.
+  * [tecnologia_friccion_social.md](file:///D:/minkea/base/defensa_jurado/tecnologia_friccion_social.md) - Justificación de la tecnología frente a un reto cultural.
+  * [hipotesis_mayor_riesgo.md](file:///D:/minkea/base/defensa_jurado/hipotesis_mayor_riesgo.md) - Cuál es la hipótesis más arriesgada de la propuesta.
+  * [aprendizajes_pivot_usuarios.md](file:///D:/minkea/base/defensa_jurado/aprendizajes_pivot_usuarios.md) - Pivot de diseño aprendido en las entrevistas con usuarios.
+  * [experimento_presupuesto_minimo.md](file:///D:/minkea/base/defensa_jurado/experimento_presupuesto_minimo.md) - Experimento de validación rápida con S/ 50k.
+  * [criterios_abandono_proyecto.md](file:///D:/minkea/base/defensa_jurado/criterios_abandono_proyecto.md) - Qué datos obligarían a abandonar la idea por completo.
 
 ### **Pilar XI: Defensa Técnica y Arquitectura (Blockchain e IA)**
 * **Ubicación:** [defensa_tecnica](file:///D:/minkea/base/defensa_tecnica)
 * **Preguntas Resueltas:**
-  * [pregunta_blockchain_ia.md](file:///D:/minkea/base/defensa_tecnica/pregunta_blockchain_ia.md) - Utilidad y justificación de Blockchain e IA en una app cívica (mitigación de over-engineering).
+  * [blockchain_ia_overengineering.md](file:///D:/minkea/base/defensa_tecnica/blockchain_ia_overengineering.md) - Utilidad y justificación de Blockchain e IA en una app cívica (mitigación de over-engineering).
 
 
